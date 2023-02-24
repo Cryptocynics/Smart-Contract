@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.4;
 
-// To count each and every think like no of tokens mint, sold, etc
+// To count each and every thing like no of tokens mint, sold, etc
 import "@openzeppelin/contracts/utils/Counters.sol";
 // To import properties of ERC721 Token
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
@@ -9,7 +9,7 @@ import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 
 // For checking values in our console
-import "hardhat/console.sol"; 
+import "hardhat/console.sol";
 
 contract NFTMarketplace is ERC721URIStorage{
     using Counters for Counters.Counter;
